@@ -21,5 +21,19 @@ namespace Entregas
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form formEntrega = new FormClientes();
+            formEntrega.MdiParent = this;
+            formEntrega.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form formFactura = new FormFactura();
+            formFactura.MdiParent = this;
+            formFactura.Show();
+        }
     }
 }
